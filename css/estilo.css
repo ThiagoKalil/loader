@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+body {
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.658);
+    background-color: #1b1b1b;
+    font-size: 1.2rem;
+}
+
+.linha {
+    background-color: rgba(59, 59, 59, 0.664);
+}
+
+.texto {
+    color: white;
+    font-weight: bold;
+}
+
+.sombra {
+    text-shadow: 0 0.05rem 0.15rem green;
+}
+
+.bg-header {
+    background: url("../img/alien2.jpg");
+    background-size: cover;
+}
+
+.text-header {
+    font-family: "Acme", sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0.15rem 0.2rem rgba(255, 255, 255, 0.75);
+}
+
+.display-4 {
+    line-height: 1.7;
+}
+
+.mt-n5 {
+    margin-top: -2rem !important;
+}
+
+.rodape .container {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.rodape {
+    padding: 0.5rem 0;
+    color: #999;
+    background-color: #000000;
+    border-top: 0.05rem solid #e5e5e5;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.img-banner {
+    height: 30rem;
+    min-height: 30rem;
+    max-height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.texto2 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 0 0.05rem 0.2rem black;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.text-loader {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+
+@media (max-width: 575.98px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .display-4 {
+        font-size: 5rem;
+        font-weight: 300;
+        line-height: 0.6;
+    }
+    .bg-header {
+        background-image: linear-gradient(to bottom right, #0a0a0a, #192229);
+    }
+}
+
+
+/* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+
+@media (max-width: 767.98px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .display-4 {
+        font-size: 6rem;
+        font-weight: 300;
+        line-height: 0.6;
+    }
+}
+
+
+/* Dispositivos médios (tablets com menos de 992px)*/
+
+@media (max-width: 991.98px) {
+    .display-4 {
+        font-size: 6rem;
+        font-weight: 300;
+        line-height: 0.9;
+    }
+}
+
+
+/* Dispositivos large (desktops com menos de 1200px)*/
+
+@media (max-width: 1199.98px) {}
